@@ -1,11 +1,11 @@
-"use client";
+'use client';
 
-import Image from "next/image";
-import { useAccount } from "wagmi";
-import { BackgroundEffects } from "@/components/ui/BackgroundEffects";
-import { ResourceCards } from "@/components/ui/ResourceCards";
-import { ConnectedState } from "@/components/wallet/ConnectedState";
-import { SignInButton } from "@/components/wallet/SignInButton";
+import Image from 'next/image';
+import { useAccount } from 'wagmi';
+import { BackgroundEffects } from '@/components/ui/BackgroundEffects';
+import { ResourceCards } from '@/components/ui/ResourceCards';
+import { ConnectedState } from '@/components/wallet/ConnectedState';
+import { SignInButton } from '@/components/wallet/SignInButton';
 
 export default function Home() {
   const { address } = useAccount();
@@ -25,9 +25,9 @@ export default function Home() {
             priority
           />
           <p className="text-md font-[family-name:var(--font-roobert)]">
-            Get started by editing{" "}
+            Get started by editing{' '}
             <code className="bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
+              src/app/page.tsx !!
             </code>
             .
           </p>
